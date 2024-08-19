@@ -37,6 +37,21 @@ Network traffic analysis is a crucial skill for cybersecurity professionals. It 
 
 ## stpe 3 
 - In the filder bar type ip.addr==<your ip> and tcp.port==80
+  ![kali-linux-2024 2-vmware-amd64 - VMware Workstation 17 Player (Non-commercial use only) 8_19_2024 12_17_18 PM](https://github.com/user-attachments/assets/772b86fb-194e-4eb2-996e-d7ddebdca00f)
+  - Now we can see the packets whch we captured
+
+  ## step 4
+  - Now type (dns) on the filter bar to see  the dns packets.
+    ![kali-linux-2024 2-vmware-amd64 - VMware Workstation 17 Player (Non-commercial use only) 8_19_2024 12_24_14 PM](https://github.com/user-attachments/assets/d685011c-5594-4779-926f-07a8b2293c75)
+    - now search for (dns.flags.response == 0) to search for dns query.
+      ![kali-linux-2024 2-vmware-amd64 - VMware Workstation 17 Player (Non-commercial use only) 8_19_2024 12_24_46 PM](https://github.com/user-attachments/assets/8237f969-99a1-4077-957c-1291faf39d1d)
+
+      - Now type (dns.flags.response == 1 ) to search for dns response.
+        ![kali-linux-2024 2-vmware-amd64 - VMware Workstation 17 Player (Non-commercial use only) 8_19_2024 12_24_54 PM](https://github.com/user-attachments/assets/ecbd740c-3631-4618-ab66-e50cecc0e538)
+# result :-  Filtered list of packets that match the criteria specified in the filter bar.
+
+
+
 
 
 
