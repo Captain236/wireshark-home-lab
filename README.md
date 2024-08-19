@@ -10,6 +10,11 @@ Network traffic analysis is a crucial skill for cybersecurity professionals. It 
 - Analyzed HTTP Traffic
 - gets hands on wireshark tool.
 
+## Tools
+- Virtual machine (VMware) and Linux.
+- Wireshark installed in Linux.
+- internet connection .
+
 # Exercise 1: Sniffing HTTP Traffic
 ## objective :- In this excercise I have performed the HTTP traffic analysis and sniff the login password of the http website 
 # step 1 :-
