@@ -52,6 +52,9 @@ Network traffic analysis is a crucial skill for cybersecurity professionals. It 
         ![kali-linux-2024 2-vmware-amd64 - VMware Workstation 17 Player (Non-commercial use only) 8_19_2024 12_24_54 PM](https://github.com/user-attachments/assets/ecbd740c-3631-4618-ab66-e50cecc0e538)
 # result :-  Filtered list of packets that match the criteria specified in the filter bar.
 
+## Conclusion :-
+By completing these exercises, I have gained practical experience in capturing and analyzing network traffic using Wireshark on a Linux system. I have learned how to filter and examine packets, identify potential malicious activities, and extract files from network captures.
+
 
 
 
