@@ -24,23 +24,25 @@ Network traffic analysis is a crucial skill for cybersecurity professionals. It 
 # result :- Wireshark now display the sniff password from the captured packet .
 ![kali-linux-2024 2-vmware-amd64 - VMware Workstation 17 Player (Non-commercial use only) 8_19_2024 11_48_36 AM](https://github.com/user-attachments/assets/297682ef-253a-445a-a4fd-4287c32ccc8e)
 
+
+
 ## Exercise 2 :- Applying Filters
 # Objective: Used Wireshark filters to narrow down and focus on specific types of traffic.
 
-## step 1 
+## step 1 :-
 - Open the linux terminal and type wireshark ![splunk 8_19_2024 12_10_28 PM](https://github.com/user-attachments/assets/ad885fd7-984a-4fff-ae41-bae406c8ff77)
 - select the interface like(eth0,wlan0,wifi ect) and on the filter bar type ( host <your ip> && tcp port 80) to see the tcp packet .
 - ![kali-linux-2024 2-vmware-amd64 - VMware Workstation 17 Player (Non-commercial use only) 8_19_2024 12_16_07 PM](https://github.com/user-attachments/assets/2df72f93-f6c2-44b1-ab3a-c85b2c020395)
-## step2
+## step2 :-
 - open the browsre and type(test.php) and open the http website and in the login password field type the random login password
 - ![kali-linux-2024 2-vmware-amd64 - VMware Workstation 17 Player (Non-commercial use only) 8_19_2024 12_16_45 PM](https://github.com/user-attachments/assets/3a0eecf8-7679-4396-8b20-03d2d8ce859d)
 
-## stpe 3 
+## step 3 :-
 - In the filder bar type ip.addr==<your ip> and tcp.port==80
   ![kali-linux-2024 2-vmware-amd64 - VMware Workstation 17 Player (Non-commercial use only) 8_19_2024 12_17_18 PM](https://github.com/user-attachments/assets/772b86fb-194e-4eb2-996e-d7ddebdca00f)
   - Now we can see the packets whch we captured
 
-  ## step 4
+  ## step 4 :-
   - Now type (dns) on the filter bar to see  the dns packets.
     ![kali-linux-2024 2-vmware-amd64 - VMware Workstation 17 Player (Non-commercial use only) 8_19_2024 12_24_14 PM](https://github.com/user-attachments/assets/d685011c-5594-4779-926f-07a8b2293c75)
     - now search for (dns.flags.response == 0) to search for dns query.
