@@ -38,7 +38,7 @@ Network traffic analysis is a crucial skill for cybersecurity professionals. It 
 - ![kali-linux-2024 2-vmware-amd64 - VMware Workstation 17 Player (Non-commercial use only) 8_19_2024 12_16_45 PM](https://github.com/user-attachments/assets/3a0eecf8-7679-4396-8b20-03d2d8ce859d)
 
 ## step 3 :-
-- In the filder bar type ip.addr==<your ip> and tcp.port==80
+- In the filder bar type ip.addr== (your ip address) and tcp.port==80
   ![kali-linux-2024 2-vmware-amd64 - VMware Workstation 17 Player (Non-commercial use only) 8_19_2024 12_17_18 PM](https://github.com/user-attachments/assets/772b86fb-194e-4eb2-996e-d7ddebdca00f)
   - Now we can see the packets whch we captured
 
